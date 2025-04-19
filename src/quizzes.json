@@ -1,0 +1,204 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "日本で一番高い山は？",
+      "choices": ["高尾山", "富士山", "比叡山", "阿蘇山"],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "日本で一番長い川は？",
+      "choices": ["利根川", "信濃川", "木曽川", "四万十川"],
+      "answerIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "地球から最も近い恒星は？",
+      "choices": [
+        "ベテルギウス",
+        "シリウス",
+        "プロキシマ・ケンタウリ",
+        "アルタイル"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "フランスの首都は？",
+      "choices": ["ロンドン", "パリ", "ベルリン", "マドリード"],
+      "answerIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "日本の初代総理大臣は？",
+      "choices": ["伊藤博文", "西郷隆盛", "大隈重信", "木戸孝允"],
+      "answerIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "ノーベル賞を創設した人物は？",
+      "choices": [
+        "トーマス・エジソン",
+        "アイザック・ニュートン",
+        "アルフレッド・ノーベル",
+        "アインシュタイン"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "日本の現行憲法が施行された年は？",
+      "choices": ["1945年", "1946年", "1947年", "1950年"],
+      "answerIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "二酸化炭素の化学式は？",
+      "choices": ["CO", "CO₂", "CH₄", "H₂O"],
+      "answerIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "鳥類に分類される動物は？",
+      "choices": ["コウモリ", "ペンギン", "カンガルー", "ウミガメ"],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "日本の都道府県で最も面積が広いのは？",
+      "choices": ["北海道", "岩手県", "長野県", "福島県"],
+      "answerIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "エベレストの標高は約何メートル？",
+      "choices": ["約6,500m", "約7,800m", "約8,800m", "約9,100m"],
+      "answerIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "元素記号「Fe」は何の元素？",
+      "choices": ["銀", "鉄", "銅", "亜鉛"],
+      "answerIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "電気抵抗の単位は？",
+      "choices": ["ワット", "ボルト", "アンペア", "オーム"],
+      "answerIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "ピカソが活躍した芸術分野は？",
+      "choices": ["音楽", "映画", "絵画", "建築"],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "マリオシリーズでマリオの弟の名前は？",
+      "choices": ["ヨッシー", "クッパ", "ルイージ", "ワリオ"],
+      "answerIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "国連の本部がある都市は？",
+      "choices": ["ロンドン", "ニューヨーク", "ジュネーブ", "パリ"],
+      "answerIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "地球が太陽の周りを一周するのにかかる日数は？",
+      "choices": ["約180日", "約250日", "約365日", "約400日"],
+      "answerIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "赤道直下の国は？",
+      "choices": ["ノルウェー", "エクアドル", "カナダ", "韓国"],
+      "answerIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "日本の祝日「こどもの日」はいつ？",
+      "choices": ["3月3日", "4月4日", "5月5日", "6月6日"],
+      "answerIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "ビタミンCが多く含まれる果物は？",
+      "choices": ["バナナ", "りんご", "レモン", "ぶどう"],
+      "answerIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "インターネットの「URL」とは何の略？",
+      "choices": [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "User Rights License",
+        "Unique Record Link"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "鉄道で「新幹線」が初めて開通した年は？",
+      "choices": ["1959年", "1964年", "1970年", "1982年"],
+      "answerIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "サハラ砂漠がある大陸は？",
+      "choices": ["アジア", "アフリカ", "南アメリカ", "ヨーロッパ"],
+      "answerIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "アニメ『ドラえもん』でのび太の名字は？",
+      "choices": ["野比", "鈴木", "山田", "小池"],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "日本の通貨単位は？",
+      "choices": ["ウォン", "ドル", "円", "ペソ"],
+      "answerIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "ギリシャ神話で海の神は？",
+      "choices": ["ゼウス", "ポセイドン", "アポロン", "ハデス"],
+      "answerIndex": 1
+    },
+    {
+      "id": 27,
+      "question": "「走れメロス」の作者は？",
+      "choices": ["太宰治", "芥川龍之介", "夏目漱石", "宮沢賢治"],
+      "answerIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "世界三大宗教に含まれないのは？",
+      "choices": ["キリスト教", "仏教", "イスラム教", "ヒンドゥー教"],
+      "answerIndex": 3
+    },
+    {
+      "id": 29,
+      "question": "植物が光合成を行うのに必要なものは？",
+      "choices": [
+        "酸素、日光、水",
+        "二酸化炭素、日光、水",
+        "窒素、日光、酸素",
+        "硫黄、日光、水"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "日本の五円玉に描かれている植物は？",
+      "choices": ["稲", "桜", "松", "竹"],
+      "answerIndex": 0
+    }
+  ]
+}
