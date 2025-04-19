@@ -1,4 +1,4 @@
-# react-quia-app
+# react-quiz-app
 
 学習用に作成した React 製クイズアプリです。
 
