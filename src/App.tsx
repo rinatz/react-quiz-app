@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import quizDataJson from "./quizzes.json";
 import _ from "lodash";
-import confetti from "canvas-confetti";
+import ResultScreen from "./ResultScreen";
 
 interface Quiz {
   id: number;
@@ -39,12 +39,6 @@ function App(): React.ReactElement {
       return () => clearTimeout(timer);
     }
   }, [showResult, quizIndex]);
-
-  useEffect(() => {
-    if (quizIndex === quizzes.current.length) {
-      confetti({ particleCount: 300, spread: 150, origin: { y: 0.5 } });
-    }
-  }, [quizIndex]);
 
   if (quizIndex < quizzes.current.length) {
     return (
@@ -93,16 +87,7 @@ function App(): React.ReactElement {
       </>
     );
   } else {
-    return (
-      <div className="flex h-screen flex-col items-center justify-center space-y-6 bg-gradient-to-br from-blue-50 to-white text-center">
-        <h1 className="animate-pulse text-2xl font-bold text-gray-800 sm:text-3xl">
-          あなたの正解数は...
-        </h1>
-        <h2 className="text-5xl font-extrabold text-blue-600 drop-shadow-lg sm:text-6xl">
-          {correctAnswers}問
-        </h2>
-      </div>
-    );
+    return <ResultScreen correctAnswers={correctAnswers} />;
   }
 }
 
