@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import quizDataJson from "./quizzes.json";
 import _ from "lodash";
 import ResultScreen from "./ResultScreen";
+import Answer from "./Answer";
 
 interface Quiz {
   id: number;
@@ -16,7 +17,7 @@ function App(): React.ReactElement {
   const [quizIndex, setQuizIndex] = useState<number>(0);
   const [correctAnswers, setCorrectAnswers] = useState<number>(0);
 
-  const [showResult, setShowResult] = useState<boolean>(false);
+  const [showAnswer, setShowAnswer] = useState<boolean>(false);
   const [isCorrect, setIsCorrect] = useState<boolean>(false);
 
   function checkAnswer(choiceIndex: number) {
@@ -27,18 +28,18 @@ function App(): React.ReactElement {
       setIsCorrect(false);
     }
 
-    setShowResult(true);
+    setShowAnswer(true);
   }
 
   useEffect(() => {
-    if (showResult) {
+    if (showAnswer) {
       const timer = setTimeout(() => {
-        setShowResult(false);
+        setShowAnswer(false);
         setQuizIndex(quizIndex + 1);
       }, 500);
       return () => clearTimeout(timer);
     }
-  }, [showResult, quizIndex]);
+  }, [showAnswer, quizIndex]);
 
   if (quizIndex < quizzes.current.length) {
     return (
@@ -73,17 +74,7 @@ function App(): React.ReactElement {
             </p>
           </div>
         </div>
-        {showResult && (
-          <div className="pointer-events-none fixed inset-0 z-50 flex items-center justify-center">
-            <div
-              className={`text-[200px] font-extrabold drop-shadow-lg sm:text-[300px] ${
-                isCorrect ? "text-green-400" : "text-red-400"
-              }`}
-            >
-              {isCorrect ? "◯" : "✕"}
-            </div>
-          </div>
-        )}
+        <Answer isCorrect={isCorrect} show={showAnswer} />
       </>
     );
   } else {
