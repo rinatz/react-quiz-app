@@ -5,7 +5,7 @@ type ResultScreenProps = {
   correctAnswers: number;
 };
 
-export default function ResultScreen({ correctAnswers }: ResultScreenProps) {
+export default function ResultScreen(props: ResultScreenProps) {
   useEffect(() => {
     confetti({ particleCount: 300, spread: 150, origin: { y: 0.5 } });
   }, []);
@@ -16,7 +16,7 @@ export default function ResultScreen({ correctAnswers }: ResultScreenProps) {
         あなたの正解数は...
       </h1>
       <h2 className="text-5xl font-extrabold text-blue-600 drop-shadow-lg sm:text-6xl">
-        {correctAnswers}問
+        {props.correctAnswers}問
       </h2>
     </div>
   );
